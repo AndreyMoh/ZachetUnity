@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe54a6d35b95784409a662731f87fd7c, type: 3}
+  m_Name: Valadimir
+  m_EditorClassIdentifier: 
+  hp: 3720
+  maxHp: 10000
+  mana: 300
+  maxMana: 280
+  MaxDamage: 100
+  MinDamage: 10
+  moveSpeed: 15
+  attackSpeed: 5
+  manaRegen: 20
+  manaCost: 10
+  Damage: 40
+  isEnabled: 0
+  isBurn: 0
+  skin: {fileID: 1104718074, guid: 2669d5deb71c0794ba996510cbbfe35b, type: 3}
+  PlayerPrefab: {fileID: 1492838213033540607, guid: 3d3eefbd83d4eaf429717c5572f18e75, type: 3}
+  BulletPrefab: {fileID: 7183870118737001631, guid: 32e098447a37f7b4ab7ba29d7d0509bb, type: 3}
+  PlayerAnimator: {fileID: 9100000, guid: b33b23e4d297d39498891a9e6003664a, type: 2}
+  PlayerSpawnPoint: {fileID: 0}
+  BitCoins: 370
+  Souls: 750
+  Keys: 37
