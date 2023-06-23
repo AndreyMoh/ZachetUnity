@@ -16,9 +16,13 @@ public class BossScript : MonoBehaviour
     Rigidbody2D rigidBody2D;
     Animator animator;
 
+    public GameObject NextLvlZonePrefab;
+
     public GameObject BossChestPrefab;
     public GameObject BulletPrefab1;
     public GameObject BulletPrefab2;
+    public Vector3 NextLvlZonePlace;
+
     public float health;
     public float maxHealth;
     public float damage;
@@ -156,6 +160,7 @@ public class BossScript : MonoBehaviour
     }
     public void Die()
     {
+        GameObject nextlvl = Instantiate(NextLvlZonePrefab,NextLvlZonePlace + transform.up, Quaternion.identity);
         Stats.Souls += 5;
         Instantiate(BossChestPrefab, transform.position, Quaternion.identity);
         Destroy(gameObject);

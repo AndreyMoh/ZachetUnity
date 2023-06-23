@@ -26,7 +26,8 @@ public class Room : MonoBehaviour
     public void SpawnBoss()
     {
         IsBoss = true;
-        Instantiate(templates.bossPrefab, transform.position, Quaternion.identity);
+        GameObject boss = Instantiate(templates.bossPrefab, transform.position, Quaternion.identity);
+        boss.GetComponent<BossScript>().NextLvlZonePlace = transform.position;
     }
 
     public void SpawnEnemies()

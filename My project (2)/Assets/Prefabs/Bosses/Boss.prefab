@@ -416,6 +416,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc5471b134eb1604184e1bc67102f0b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NextLvlZonePrefab: {fileID: 6198303237883862264, guid: 28ef82fc3a172fb4ca95b7672e1bd45c, type: 3}
   BossChestPrefab: {fileID: 2151686703885416255, guid: 68746ecc5c5f5b94ba3c2aedc0272749, type: 3}
   BulletPrefab1: {fileID: 5577841950355537700, guid: 488bc735e49ea7b449e4044a02ac1a5f, type: 3}
   BulletPrefab2: {fileID: 3825840585563243287, guid: a79ac31d791c50648a847814b78d6100, type: 3}
