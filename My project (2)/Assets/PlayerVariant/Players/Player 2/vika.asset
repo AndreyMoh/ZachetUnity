@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe54a6d35b95784409a662731f87fd7c, type: 3}
+  m_Name: vika
+  m_EditorClassIdentifier: 
+  hp: 3720
+  maxHp: 8000
+  mana: 350
+  maxMana: 280
+  MaxDamage: 80
+  MinDamage: 10
+  moveSpeed: 18
+  attackSpeed: 6
+  manaRegen: 25
+  manaCost: 10
+  Damage: 30
+  isEnabled: 0
+  isBurn: 0
+  skin: {fileID: -734526025, guid: 2669d5deb71c0794ba996510cbbfe35b, type: 3}
+  PlayerPrefab: {fileID: 1492838213033540607, guid: cb6ab65cafb8f604bb9de24b3d17b414, type: 3}
+  BulletPrefab: {fileID: 7183870118737001631, guid: 32e098447a37f7b4ab7ba29d7d0509bb, type: 3}
+  PlayerAnimator: {fileID: 9100000, guid: b33b23e4d297d39498891a9e6003664a, type: 2}
+  PlayerSpawnPoint: {fileID: 0}
+  BitCoins: 370
+  Souls: 750
+  Keys: 37
